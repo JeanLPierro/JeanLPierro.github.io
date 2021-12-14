@@ -1,22 +1,14 @@
-@media (max-width: 1440px) {
+@media screen and (min-width: 1216px) {
   .body {
     background-image: url(../assets/home/background-home-desktop.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
   }
  }
- @media (max-width: 768px) {
+ @media screen and (min-width: 1px) and (max-width: 1216px) {
   .body {
     background-image: url(../assets/home/background-home-tablet.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
- }
-
- @media (max-width: 375px) {
-  .body {
-    background-image: url(../assets/home/background-home-mobile.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: repeat-y;
   }
  }
