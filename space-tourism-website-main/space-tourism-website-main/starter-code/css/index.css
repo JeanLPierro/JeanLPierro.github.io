@@ -16,7 +16,6 @@
  li {
   display: inline;
   float: left;
-  background: hsl(0, 0%, 100% / 0.1);
 }
 
 li a{
@@ -29,8 +28,23 @@ li a:hover {
   background-color: rgba(187, 187, 187, 0.877);
 }
 
+.active {
+  background-color: rgba(187, 187, 187, 0.877);
+}
+
 ul {
   position: fixed;
   top: 0;
   width: 100%;
+  background: hsl(0, 0%, 100% / 0.1);
+}
+
+p {
+  text-align: left;
+  vertical-align: text-bottom;
+}
+
+h1 {
+  text-align: left;
+  vertical-align: text-bottom;
 }
