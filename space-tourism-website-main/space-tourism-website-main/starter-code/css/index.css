@@ -12,3 +12,25 @@
     background-repeat: repeat-y;
   }
  }
+
+ li {
+  display: inline;
+  float: left;
+  background: hsl(0, 0%, 100% / 0.1);
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+}
+
+li a:hover {
+  background-color: rgba(187, 187, 187, 0.877);
+}
+
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
