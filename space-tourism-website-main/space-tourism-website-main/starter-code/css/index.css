@@ -27,11 +27,11 @@ li a{
 }
 
 li a:hover {
-  background-color: hsl(0 0% 100% / 5);
+  background-color: hsl(0 0% 100% / 0.1);
 }
 
 .active {
-  border-bottom: whitesmoke;
+  border-bottom: white;
 }
 
 ul {
