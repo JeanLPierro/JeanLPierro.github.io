@@ -1,11 +1,11 @@
-@media screen and (max-width: 1440px) {
+@media (max-width: 1440px) {
   .body {
     background-image: url(../assets/home/background-home-desktop.jpg);
     background-size: contain;
     background-repeat: no-repeat;
   }
  }
- @media screen and (max-width: 768px) {
+ @media (max-width: 768px) {
   .body {
     background-image: url(../assets/home/background-home-tablet.jpg);
     background-size: contain;
@@ -13,7 +13,7 @@
   }
  }
 
- @media screen and (max-width: 375px) {
+ @media (max-width: 375px) {
   .body {
     background-image: url(../assets/home/background-home-mobile.jpg);
     background-size: contain;
