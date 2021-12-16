@@ -33,6 +33,7 @@ li a{
 
 li a:hover {
   background-color: hsl(0 0% 100% / 0.1);
+  display: block;
 }
 
 .active {
