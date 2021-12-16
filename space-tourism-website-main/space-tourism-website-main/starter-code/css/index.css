@@ -34,15 +34,6 @@ li a:hover {
   border-bottom: whitesmoke;
 }
 
-.selectors{
-  background: hsl(0 0% 100% / 0.1);
-  backdrop-filter: blur(0.9rem);
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 18px;
-  padding-bottom: 18px;
-}
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -52,6 +43,7 @@ ul {
   position: fixed;
   top: 5%;
   width: 100%;
+  background-color: hsl(0 0% 100% / 0.1);
 }
 
 p {
